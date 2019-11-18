@@ -7,6 +7,7 @@ class QueueJavaExample {
         }
     }
 
+    // 2 nodes, one for begining and end
     private Node head;
     private Node tail;
 
@@ -15,9 +16,15 @@ class QueueJavaExample {
     }
 
     public int peek() {
+        if (head.data == null) {
+            return null;
+        }
         return head.data;
     }
 
+    /* In a queue you add to the end(tail) and point it.
+    If there is a new queue then the node added will
+    be both the tail and the head until more is added. */
     public void add(int data) {
         Node node = new Node(data);
         if (tail != null) {
