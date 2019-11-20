@@ -1,0 +1,9 @@
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\bin\Debug\netcoreapp2.1\CSharpAlgorithms.deps.json
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\bin\Debug\netcoreapp2.1\CSharpAlgorithms.dll
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\bin\Debug\netcoreapp2.1\CSharpAlgorithms.pdb
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\obj\Debug\netcoreapp2.1\CSharpAlgorithms.csprojAssemblyReference.cache
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\obj\Debug\netcoreapp2.1\CSharpAlgorithms.csproj.CoreCompileInputs.cache
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\obj\Debug\netcoreapp2.1\CSharpAlgorithms.AssemblyInfoInputs.cache
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\obj\Debug\netcoreapp2.1\CSharpAlgorithms.AssemblyInfo.cs
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\obj\Debug\netcoreapp2.1\CSharpAlgorithms.dll
+C:\Projects\AlgorithmsAndDataStructureLearning\Algorithms\CSharpAlgorithms\obj\Debug\netcoreapp2.1\CSharpAlgorithms.pdb
