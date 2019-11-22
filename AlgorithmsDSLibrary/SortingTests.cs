@@ -60,5 +60,11 @@ namespace AlgorithmsDSLibrary
         {
             RunTestsForSortAlgorithm(Sorting.SelectionSort);
         }
+
+        [Test]
+        public void ShellSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.ShellSort);
+        }
     }
 }
