@@ -58,13 +58,25 @@ namespace AlgorithmsDSLibrary
         [Test]
         public void InsertionSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Sorting.SelectionSort);
+            RunTestsForSortAlgorithm(Sorting.InsertionSort);
         }
 
         [Test]
         public void ShellSort_ValidInput_SortedOutput()
         {
             RunTestsForSortAlgorithm(Sorting.ShellSort);
+        }
+
+        [Test]
+        public void MergeSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.MergeSort);
+        }
+
+        [Test]
+        public void QuickSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.QuickSort);
         }
     }
 }
