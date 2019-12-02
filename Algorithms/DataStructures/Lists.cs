@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace DataStructures
 {
-    public class SinglyLinkedList<T>
+    public class SinglyLinkedList<T> : IEnumerable<T>
     {
         public Node<T> Head { get; private set; }
         public Node<T> Tail { get; private set; }
@@ -34,6 +36,7 @@ namespace DataStructures
         {
             AddLast(new Node<T>(value));
         }
+
 
         private void AddLast(Node<T> node)
         {
@@ -85,17 +88,21 @@ namespace DataStructures
             Count--;
         }
 
-        public bool IsEmpty => Count == 0;
-    }
-
-    public class Node<T>
-    {
-        public T Value { get; set; }
-        public Node<T> Next { get; set; }
-
-        public Node (T value)
+        public IEnumerator<T> GetEnumerator()
         {
-            Value = value;
+            Node<T> current = Head;
+            while (current != null)
+            {
+                yield return current.Value;
+                current = current.Next;
+            }
         }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+        public bool IsEmpty => Count == 0;
     }
 }
