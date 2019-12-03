@@ -61,6 +61,5 @@ namespace ArrayStack
 
         public bool IsEmpty => Count == 0;
         public int Count { get; private set; }
-
     }
 }
