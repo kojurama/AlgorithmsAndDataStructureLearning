@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ArrayStack
 {
-    public class ArrayStack<T>
+    public class ArrayStack<T> : IEnumerable<T>
     {
 
         private T[] _items;
@@ -43,6 +44,19 @@ namespace ArrayStack
             }
 
             _items[Count++] = item;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            for (int i = Count - 1; i >= 0; i--)
+            {
+                yield return _items[i];
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new NotImplementedException();
         }
 
         public bool IsEmpty => Count == 0;
